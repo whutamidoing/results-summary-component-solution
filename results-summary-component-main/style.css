@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+
+* {
+	font-family: 'Haken Grotesk', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+.mainBlock {
+	display: flex;
+	justify-content: center;
+	background-color: #f9fefe;
+	box-shadow: 10px 10px 20px 10px #00000020;
+	width: 40vw;
+	height: 50%;
+	border-radius: 10px;
+}
+.resultBlock {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(234, 85%, 45%));
+	border-radius: 10px;
+	padding: 40px;
+	width: 50%;
+	color: #fff;
+}
+h3 {
+	margin: 0 0 40px;
+	font-size: 24px;
+	font-weight: 600;
+}
+h3.yourResult {
+	color: #ffffffa0;
+}
+.circle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+	color: #ffffffa0;
+}
+.resultNum {
+	font-size: 48px;
+	font-weight: 800;
+	margin: 10px;
+	color: #fff;
+}
+.rating {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 24px;
+}
+.percentile {
+	text-align: center;
+	font-weight: 300;
+	color: #ffffffa0;
+}
+.summaryBlock {
+	width: 50%;
+	padding: 40px;
+}
+.grades {
+	padding: 15px;
+	background-color: #00000010;
+	margin: 10px;
+	border-radius: 5px;
+}
+.reaction.grades {
+	background-color: #ff000010;
+	color: #f00;
+}
+.memory.grades {
+	background-color: #ffff0010;
+	color: #FEBC38;
+}
+.verbal.grades {
+	background-color: #00ff0010;
+	color: #1dc39b;
+}
+.visual.grades {
+	background-color: #0000ff10;
+	color: #00f;
+}
+.ratio {
+	float: right;
+	color: #000;
+}
+.maxgrade {
+	color: #00000090;
+}
+.continueButton {
+	width: 100%;
+	padding: 10px;
+	border-radius: 50px;
+	text-align: center;
+	background-color: #2D3D5A;
+	color: #fff;
+	margin: 1vh 0;
+}
+.attribution {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding: 20px;
+	color: #fff;
+	background-color: #000000a0;
+	border-radius: 50px;
+	margin: 50px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.punpun {
+	margin: 10px;
+}
